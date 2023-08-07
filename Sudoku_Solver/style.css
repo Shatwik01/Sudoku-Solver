@@ -1,0 +1,116 @@
+body{
+    background-color: #e7b7b0;
+}
+
+.Heading{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+.sudoku_grid{
+    display: flex;
+    flex-direction: row;
+    max-width: 578px;
+    flex-wrap: wrap;
+
+    margin: 10px auto ;
+}
+
+.sudoku_grid div{
+    display:  flex;
+    align-items: center;
+    justify-content: center;
+    
+    width: 60px;
+    height: 60px;
+    color: white;
+    font-size: 40px;
+
+    box-sizing: border-box;
+}
+
+.Buttons{   
+    display: flex;
+    justify-content: center;
+    width: 100%;    
+    margin-bottom: 80px;
+}
+
+.getpuzzle{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    background-color: #18598a;
+    padding: 10px 35px;
+    font-size: 24px;
+    border: 1px solid #2d6898;
+    box-shadow: inset 0px 1px 0px rgba(255,255,255,.3);
+    margin-right: 10px;
+}
+
+#SolvePuzzle{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    background-color: #18598a;
+    padding: 10px 35px;
+    font-size: 24px;
+    border: 1px solid #2d6898;
+    box-shadow: inset 0px 1px 0px rgba(255,255,255,.3);
+    margin-right: 10px;
+}
+.getpuzzle:hover{
+    background-color: rgb(172, 203, 232);
+}
+#SolvePuzzle:hover{
+    background-color: rgb(172, 203, 232);
+}
+
+.box1{
+    background-color: #f08273;
+    border: 2px solid  rgb(116, 22, 22);
+}
+
+.box1:hover{
+    background-color: #f1beba;
+    color: black;
+}
+
+.box2{
+    background-color: #cc4232;
+    border: 2px solid   rgb(116, 22, 22);
+}
+.box2:hover{
+    background-color: rgb(215, 93, 93);
+}
+
+.box3{
+    background-color: #c42108;
+    border: 2px solid  rgb(116, 22, 22);
+}
+.box3:hover{
+    background-color: #be5a4b;
+    color: black
+}
+
+.bl{
+    border-left: 4px solid black;
+}
+
+.bb{
+    border-bottom: 4px solid black;
+}
+
+.br{
+    border-right: 4px solid black;
+}
+
+.bt{
+    border-top: 4px solid black;
+}
